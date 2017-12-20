@@ -1,0 +1,19 @@
+{
+  "name": "newegg-scraper",
+  "version": "1.0.0",
+  "description": "A scraper to search newegg.com for products and their prices",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": "bin/index.js",
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "got": "^8.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1"
+  }
+}
